@@ -58,7 +58,7 @@ const MediaDemo = () => {
             <div className="product-item">
                 <div className="product-item-content">
                     <div className="mb-3">
-                        <img src={`assets/demo/images/product/${product.image}`} alt={product.name} className="product-image" />
+                        <img src={`post-admin/assets/demo/images/product/${product.image}`} alt={product.name} className="product-image" />
                     </div>
                     <div>
                         <h4 className="p-mb-1">
@@ -77,8 +77,8 @@ const MediaDemo = () => {
         );
     };
 
-    const galleriaItemTemplate = (item) => <img src={`assets/${item.itemImageSrc}`} alt={item.alt} style={{ width: '100%', display: 'block' }} />
-    const galleriaThumbnailTemplate = (item) => <img src={`assets/${item.thumbnailImageSrc}`} alt={item.alt} style={{ width: '100%', display: 'block' }} />
+    const galleriaItemTemplate = (item) => <img src={`post-admin/assets/${item.itemImageSrc}`} alt={item.alt} style={{ width: '100%', display: 'block' }} />
+    const galleriaThumbnailTemplate = (item) => <img src={`post-admin/assets/${item.thumbnailImageSrc}`} alt={item.alt} style={{ width: '100%', display: 'block' }} />
 
     return (
         <div className="grid p-fluid media-demo">
@@ -101,7 +101,7 @@ const MediaDemo = () => {
                 <div className="card">
                     <h5>Image</h5>
                     <div className="flex justify-content-center">
-                        <Image src="assets/demo/images/galleria/galleria11.jpg" alt="galleria" width={250} preview />
+                        <Image src="post-admin/assets/demo/images/galleria/galleria11.jpg" alt="galleria" width={250} preview />
                     </div>
                 </div>
             </div>
