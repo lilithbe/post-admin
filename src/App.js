@@ -196,29 +196,29 @@ const App = () => {
 
             <div className="layout-main-container">
                 <div className="layout-main">
-                    <Route path="/" exact render={() => <Dashboard colorMode={layoutColorMode} location={location} />} />
-                    <Route path="/formlayout" component={FormLayoutDemo} />
-                    <Route path="/input" component={InputDemo} />
-                    <Route path="/floatlabel" component={FloatLabelDemo} />
-                    <Route path="/invalidstate" component={InvalidStateDemo} />
-                    <Route path="/button" component={ButtonDemo} />
-                    <Route path="/table" component={TableDemo} />
-                    <Route path="/list" component={ListDemo} />
-                    <Route path="/tree" component={TreeDemo} />
-                    <Route path="/panel" component={PanelDemo} />
-                    <Route path="/overlay" component={OverlayDemo} />
-                    <Route path="/media" component={MediaDemo} />
-                    <Route path="/menu" component={MenuDemo} />
-                    <Route path="/messages" component={MessagesDemo} />
-                    <Route path="/blocks" component={BlocksDemo} />
-                    <Route path="/icons" component={IconsDemo} />
-                    <Route path="/file" component={FileDemo} />
-                    <Route path="/chart" render={() => <ChartDemo colorMode={layoutColorMode} location={location} />} />
-                    <Route path="/misc" component={MiscDemo} />
-                    <Route path="/timeline" component={TimelineDemo} />
-                    <Route path="/crud" component={Crud} />
-                    <Route path="/empty" component={EmptyPage} />
-                    <Route path="/documentation" component={Documentation} />
+                    <Route path="/post-admin/" exact render={() => <Dashboard colorMode={layoutColorMode} location={location} />} />
+                    <Route path="/post-admin/formlayout" component={FormLayoutDemo} />
+                    <Route path="/post-admin/input" component={InputDemo} />
+                    <Route path="/post-admin/floatlabel" component={FloatLabelDemo} />
+                    <Route path="/post-admin/invalidstate" component={InvalidStateDemo} />
+                    <Route path="/post-admin/button" component={ButtonDemo} />
+                    <Route path="/post-admin/table" component={TableDemo} />
+                    <Route path="/post-admin/list" component={ListDemo} />
+                    <Route path="/post-admin/tree" component={TreeDemo} />
+                    <Route path="/post-admin/panel" component={PanelDemo} />
+                    <Route path="/post-admin/overlay" component={OverlayDemo} />
+                    <Route path="/post-admin/media" component={MediaDemo} />
+                    <Route path="/post-admin/menu" component={MenuDemo} />
+                    <Route path="/post-admin/messages" component={MessagesDemo} />
+                    <Route path="/post-admin/blocks" component={BlocksDemo} />
+                    <Route path="/post-admin/icons" component={IconsDemo} />
+                    <Route path="/post-admin/file" component={FileDemo} />
+                    <Route path="/post-admin/chart" render={() => <ChartDemo colorMode={layoutColorMode} location={location} />} />
+                    <Route path="/post-admin/misc" component={MiscDemo} />
+                    <Route path="/post-admin/timeline" component={TimelineDemo} />
+                    <Route path="/post-admin/crud" component={Crud} />
+                    <Route path="/post-admin/empty" component={EmptyPage} />
+                    <Route path="/post-admin/documentation" component={Documentation} />
                 </div>
 
                 <AppFooter layoutColorMode={layoutColorMode} />
