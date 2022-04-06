@@ -67,7 +67,7 @@ const ListDemo = () => {
         return (
             <div className="col-12">
                 <div className="flex flex-column md:flex-row align-items-center p-3 w-full">
-                    <img src={`post-admin/assets/demo/images/product/${data.image}`} alt={data.name} className="my-4 md:my-0 w-9 md:w-10rem shadow-2 mr-5" />
+                    <img src={`https://lilithbe.github.io/post-admin/assets/demo/images/product/${data.image}`} alt={data.name} className="my-4 md:my-0 w-9 md:w-10rem shadow-2 mr-5" />
                     <div className="flex-1 text-center md:text-left">
                         <div className="font-bold text-2xl">{data.name}</div>
                         <div className="mb-3">{data.description}</div>
@@ -99,7 +99,7 @@ const ListDemo = () => {
                         <span className={`product-badge status-${data.inventoryStatus.toLowerCase()}`}>{data.inventoryStatus}</span>
                     </div>
                     <div className="text-center">
-                        <img src={`post-admin/assets/demo/images/product/${data.image}`} alt={data.name} className="w-9 shadow-2 my-3 mx-0" />
+                        <img src={`https://lilithbe.github.io/post-admin/assets/demo/images/product/${data.image}`} alt={data.name} className="w-9 shadow-2 my-3 mx-0" />
                         <div className="text-2xl font-bold">{data.name}</div>
                         <div className="mb-3">{data.description}</div>
                         <Rating value={data.rating} readonly cancel={false} />

@@ -103,7 +103,7 @@ const TableDemo = () => {
     const countryBodyTemplate = (rowData) => {
         return (
             <React.Fragment>
-                <img alt="flag" src="post-admin/assets/demo/images/flags/flag_placeholder.png" className={`flag flag-${rowData.country.code}`} width={30} />
+                <img alt="flag" src="https://lilithbe.github.io/post-admin/assets/demo/images/flags/flag_placeholder.png" className={`flag flag-${rowData.country.code}`} width={30} />
                 <span style={{ marginLeft: '.5em', verticalAlign: 'middle' }} className="image-text">{rowData.country.name}</span>
             </React.Fragment>
         );
@@ -138,7 +138,7 @@ const TableDemo = () => {
     const representativesItemTemplate = (option) => {
         return (
             <div className="p-multiselect-representative-option">
-                <img alt={option.name} src={`post-admin/assets/demo/images/avatar/${option.image}`} width={32} style={{ verticalAlign: 'middle' }} />
+                <img alt={option.name} src={`https://lilithbe.github.io/post-admin/assets/demo/images/avatar/${option.image}`} width={32} style={{ verticalAlign: 'middle' }} />
                 <span style={{ marginLeft: '.5em', verticalAlign: 'middle' }} className="image-text">{option.name}</span>
             </div>
         );

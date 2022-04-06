@@ -8,7 +8,7 @@ const IconsDemo = () => {
     const [filteredIcons, setFilteredIcons] = useState([]);
 
     useEffect(() => {
-        axios.get('post-admin/assets/demo/data/icons.json').then(res => {
+        axios.get('https://lilithbe.github.io/post-admin/assets/demo/data/icons.json').then(res => {
             let icons = res.data.icons;
             icons.sort((icon1, icon2) => {
                 if (icon1.properties.name < icon2.properties.name)

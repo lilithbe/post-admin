@@ -7,8 +7,8 @@ export const AppTopbar = (props) => {
     return (
         <div className="layout-topbar">
             <Link to="/post-admin" className="layout-topbar-logo">
-                <img src={props.layoutColorMode === 'light' ? 'post-admin/assets/layout/images/logo-dark.svg' : 'post-admin/assets/layout/images/logo-white.svg'} alt="logo"/>
-                <span>SAKAI</span>
+                <img src={props.layoutColorMode === 'light' ? 'https://lilithbe.github.io/post-admin/assets/layout/images/logo-dark.svg' : 'https://lilithbe.github.io/post-admin/assets/layout/images/logo-white.svg'} alt="logo"/>
+                <span>Post Admin</span>
             </Link>
 
             <button type="button" className="p-link  layout-menu-button layout-topbar-button" onClick={props.onToggleMenuClick}>

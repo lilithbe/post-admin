@@ -78,11 +78,11 @@ const MiscDemo = () => {
                     <h4>Avatar</h4>
                     <h5>Avatar Group</h5>
                     <AvatarGroup className="mb-3">
-                        <Avatar image="post-admin/assets/demo/images/avatar/amyelsner.png" size="large" shape="circle"></Avatar>
-                        <Avatar image="post-admin/assets/demo/images/avatar/asiyajavayant.png" size="large" shape="circle"></Avatar>
-                        <Avatar image="post-admin/assets/demo/images/avatar/onyamalimba.png" size="large" shape="circle"></Avatar>
-                        <Avatar image="post-admin/assets/demo/images/avatar/ionibowcher.png" size="large" shape="circle"></Avatar>
-                        <Avatar image="post-admin/assets/demo/images/avatar/xuxuefeng.png" size="large" shape="circle"></Avatar>
+                        <Avatar image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/amyelsner.png" size="large" shape="circle"></Avatar>
+                        <Avatar image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/asiyajavayant.png" size="large" shape="circle"></Avatar>
+                        <Avatar image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/onyamalimba.png" size="large" shape="circle"></Avatar>
+                        <Avatar image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/ionibowcher.png" size="large" shape="circle"></Avatar>
+                        <Avatar image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/xuxuefeng.png" size="large" shape="circle"></Avatar>
                         <Avatar label="+2" shape="circle" size="large" style={{ 'backgroundColor': '#9c27b0', 'color': '#ffffff' }}></Avatar>
                     </AvatarGroup>
 
@@ -160,18 +160,18 @@ const MiscDemo = () => {
 
                     <h5>Image</h5>
                     <div className="flex align-items-center flex-column sm:flex-row">
-                        <Chip label="Amy Elsner" image="post-admin/assets/demo/images/avatar/amyelsner.png" className="mr-2 mb-2" />
-                        <Chip label="Asiya Javayant" image="post-admin/assets/demo/images/avatar/asiyajavayant.png" className="mr-2 mb-2" />
-                        <Chip label="Onyama Limba" image="post-admin/assets/demo/images/avatar/onyamalimba.png" className="mr-2 mb-2" />
-                        <Chip label="Xuxue Feng" image="post-admin/assets/demo/images/avatar/xuxuefeng.png" className="mb-2" removable />
+                        <Chip label="Amy Elsner" image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/amyelsner.png" className="mr-2 mb-2" />
+                        <Chip label="Asiya Javayant" image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/asiyajavayant.png" className="mr-2 mb-2" />
+                        <Chip label="Onyama Limba" image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/onyamalimba.png" className="mr-2 mb-2" />
+                        <Chip label="Xuxue Feng" image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/xuxuefeng.png" className="mb-2" removable />
                     </div>
 
                     <h5>Styling</h5>
                     <div className="flex align-items-center flex-column sm:flex-row">
                         <Chip label="Action" className="mr-2 mb-2 custom-chip" />
                         <Chip label="Apple" icon="pi pi-apple" className="mr-2 mb-2 custom-chip" />
-                        <Chip label="Onyama Limba" image="post-admin/assets/demo/images/avatar/onyamalimba.png" className="mr-2 mb-2 custom-chip" />
-                        <Chip label="Xuxue Feng" image="post-admin/assets/demo/images/avatar/xuxuefeng.png" className="custom-chip mb-2" removable />
+                        <Chip label="Onyama Limba" image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/onyamalimba.png" className="mr-2 mb-2 custom-chip" />
+                        <Chip label="Xuxue Feng" image="https://lilithbe.github.io/post-admin/assets/demo/images/avatar/xuxuefeng.png" className="custom-chip mb-2" removable />
                     </div>
                 </div>
 
